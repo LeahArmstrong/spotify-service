@@ -1,0 +1,23 @@
+{
+  "changes": [
+    {
+      "id": "1",
+      "owner_id": "2",
+      "type": "playlist",
+      "action": "destroy"
+    },
+    {
+      "id": "2",
+      "owner_id": "3",
+      "type": "playlist",
+      "action": "update",
+      "song_ids": [ "2", "3", "5", "10", "25"]
+    },
+    {
+      "owner_id": "6",
+      "action": "create",
+      "type": "playlist",
+      "song_ids": [ "5", "23", "25" ]
+    }
+  ]
+}
